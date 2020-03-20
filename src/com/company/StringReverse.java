@@ -9,9 +9,6 @@ public class StringReverse {
         StringBuilder output = new StringBuilder();
         for (int i = input.length() - 1; i >= 0; i--) {
             output.append(input.charAt(i));
-            //output = output + input.charAt(i);
-            //output = String.format("%s%s", output, input.charAt(i));
-           // output = output.concat(String.valueOf(input.charAt(i)));
         }
         return output.toString();
     }
