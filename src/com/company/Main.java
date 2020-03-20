@@ -8,6 +8,7 @@ public class Main {
 	// write your code here
 
         // Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer.
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert a number between 0 an 1000 : ");
         int number = scanner.nextInt();
@@ -27,16 +28,16 @@ public class Main {
         Scanner palindromeCheck = new Scanner(System.in);
         System.out.println("Insert a number/word/sentence to check if it is palindrome");
         String palindromeNumber = palindromeCheck.nextLine();
-        boolean isTrueFlase = PalindromeCheck.isPalindrome(palindromeNumber);
-        System.out.println(isTrueFlase);
+        boolean isTrueFalse = PalindromeCheck.isPalindrome(palindromeNumber);
+        System.out.println(isTrueFalse);
 
+        // Write a Java program to count the letters, spaces, numbers and other characters of an input string.
 
-
-
-
-
+        Scanner count = new Scanner(System.in);
+        System.out.println("Insert letters, numbers, spaces, characters to count  them");
+        String countLettersNumbersSpacesCharacters = count.nextLine();
+        CountLettersSpacesNumbersCharacters.count(countLettersNumbersSpacesCharacters);
 
     }
-
 
 }

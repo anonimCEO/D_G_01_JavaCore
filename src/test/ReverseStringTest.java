@@ -12,14 +12,13 @@ public class ReverseStringTest {
         String reversedCapitalString = StringReverse.stReverse("WATER");
         String reversedDigits = StringReverse.stReverse("1125");
         String reversedSentenceWithSpaces = StringReverse.stReverse("Hello world !");
-        String reversedSpecialCaracters = StringReverse.stReverse("!@#$");
-        String reversedNull = StringReverse.stReverse(null);
+        String reversedSpecialCharacters = StringReverse.stReverse("!@#$");
 
         assertEquals("tac", reversed);
         assertEquals("RETAW", reversedCapitalString);
         assertEquals("5211", reversedDigits);
         assertEquals("! dlrow olleH", reversedSentenceWithSpaces);
-        assertEquals("$#@!", reversedSpecialCaracters);
-        assertEquals(null, reversedNull);
+        assertEquals("$#@!", reversedSpecialCharacters);
+        assertNull(null);
     }
 }
