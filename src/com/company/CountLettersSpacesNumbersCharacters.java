@@ -2,7 +2,7 @@ package com.company;
 
 public class CountLettersSpacesNumbersCharacters {
 
-    public static void count (String s){
+    public static int count (String s){
         int digits = 0;
         int letters = 0;
         int spaces = 0;
@@ -24,7 +24,15 @@ public class CountLettersSpacesNumbersCharacters {
         System.out.println("Spaces : " + spaces);
         System.out.println("Other : " + others);
 
+        // needed for tests
+        String sLetters = Integer.toString(letters);
+        String sDigits = Integer.toString(digits);
+        String sSpaces = Integer.toString(spaces);
+        String sOthers = Integer.toString(others);
+        String sConcat = sLetters + sDigits + sSpaces + sOthers;
+        return Integer.parseInt(sConcat);
 
     }
+
 
 }
