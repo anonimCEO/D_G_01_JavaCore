@@ -11,7 +11,7 @@ public class Main {
 
         // Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer.
 
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Insert a number between 0 an 1000 : ");
         int number = scanner.nextInt();
         System.out.println("The sum of all digits in " + number + " is :" + GetSum.getSumOfAllDigits(number));
@@ -38,7 +38,7 @@ public class Main {
         Scanner count = new Scanner(System.in);
         System.out.println("Insert letters, numbers, spaces, characters to count  them");
         String countLettersNumbersSpacesCharacters = count.nextLine();
-        CountLettersSpacesNumbersCharacters.count(countLettersNumbersSpacesCharacters);*/
+        CountLettersSpacesNumbersCharacters.count(countLettersNumbersSpacesCharacters);
 
         //Write two functions:
         //Write a function reverse (arr, k) that reverses the order of the first k elements in the array arr.
