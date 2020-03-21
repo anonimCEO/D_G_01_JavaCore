@@ -29,8 +29,7 @@ public class CountLettersSpacesNumbersCharacters {
         String sDigits = Integer.toString(digits);
         String sSpaces = Integer.toString(spaces);
         String sOthers = Integer.toString(others);
-        String sConcat = sLetters + sDigits + sSpaces + sOthers;
-        return Integer.parseInt(sConcat);
+        return Integer.parseInt(sLetters + sDigits + sSpaces + sOthers);
 
     }
 
