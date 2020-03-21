@@ -37,7 +37,6 @@ public class Main {
         System.out.println("Insert letters, numbers, spaces, characters to count  them");
         String countLettersNumbersSpacesCharacters = count.nextLine();
         CountLettersSpacesNumbersCharacters.count(countLettersNumbersSpacesCharacters);
-        System.out.println(CountLettersSpacesNumbersCharacters.count("qwerty"));
 
     }
 
