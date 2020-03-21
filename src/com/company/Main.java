@@ -1,10 +1,11 @@
 package com.company;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+
+
 
     public static void main(String[] args) {
 	// write your code here
@@ -58,6 +59,18 @@ public class Main {
         //Write a Java method that takes as parameter array of different objects (string, char, int, long, Person –
         // need to create Person class with fields Name, Age, Gender), method must concatenate all strings and
         // characters, sum all numbers, make separate array with persons only.
+
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add(new Person("Ekaterina", 18, Gender.FEMALE));
+        arrayList.add("Today");
+        arrayList.add(32344234234L);
+        arrayList.add("is");
+        arrayList.add(2L);
+        arrayList.add('a');
+        arrayList.add(new Person("Ivan", 22, Gender.MALE));
+        arrayList.add("big");
+        arrayList.add("day");
+        DifferentObjects.concatenate(arrayList);
 
     }
 
